@@ -1,0 +1,24 @@
+{
+  "name": "nitrillo",
+  "version": "1.0.0",
+  "description": "Hotel website project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hotel",
+    "website"
+  ],
+  "author": "Alfredo Veintimilla",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "cssnano": "^5.0.3",
+    "dart-sass": "^1.25.0",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^4.1.0",
+    "postcss": "^8.2.15"
+  }
+}
