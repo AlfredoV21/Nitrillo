@@ -1,0 +1,17 @@
+.header {
+    height: 7rem;
+    background-color: $color-white;
+    border-bottom: $color-grey-light-2;
+
+    &__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+    }
+
+    &__Alf-logo {
+        height: 3.25rem;
+    }
+}

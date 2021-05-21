@@ -1,0 +1,30 @@
+.user-nav {
+    display: flex;
+    justify-content: space-evenly;
+
+    &__icon-box {
+
+    }
+
+    &__icon {
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+
+    &__notification {
+
+    }
+
+    &__user {
+
+
+        &-photo {
+            height: 3.75rem;
+            border-radius: 50%;
+        }
+
+        &-name {
+
+        }
+    }
+}

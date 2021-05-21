@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.header {
+  height: 7rem;
+  background-color: #fff;
+  border-bottom: #f4f2f2;
+}
+
+.header__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.header__Alf-logo {
+  height: 3.25rem;
+}
+
+.sidebar {
+  background-color: #333;
+  flex: 0 0 18%;
+}
+
+.hotel-view {
+  flex: 1;
+  background-color: orangered;
+}
+
+.content {
+  display: flex;
+}
+
+.search__icon {
+  height: 2rem;
+  width: 2rem;
+}
+
+.user-nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.user-nav__icon {
+  height: 2.25rem;
+  width: 2.25rem;
+}
+
+.user-nav__user-photo {
+  height: 3.75rem;
+  border-radius: 50%;
+}
