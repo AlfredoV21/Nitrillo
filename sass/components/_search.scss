@@ -1,16 +1,50 @@
 .search {
-
+    flex: 0 0 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     &__input {
+        font-family: inherit;
+        font-size: inherit;
+        color: inherit;
+        padding: .7rem 2rem;
+        background-color: $color-grey-light-2;
+        border-radius: 10rem;
+        border: none;
+        width: 90%;
+        transition: all .2s;
+        margin-right: -3.25rem;
+        &:focus {
+            outline: none;
+            width: 100%;
+        }
 
+        &::-webkit-input-placeholder {
+            font-weight: 100;
+            color: $color-grey-light-4;
+        }
+    }
+
+    &__input + &__button {
+        background-color: $color-grey-light-3;
     }
 
     &__button {
+        border: none;
+        background-color: $color-grey-light-2;
+        &:focus {
+            outline: none;
+        }
 
+        &:active {
+            transform: translateY(2px);
+        }
     }
 
     &__icon {
         height: 2rem;
         width: 2rem;
+        fill: $color-grey-dark-2;
     }
 }
