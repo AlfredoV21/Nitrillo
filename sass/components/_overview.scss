@@ -1,0 +1,63 @@
+.overview {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid $color-grey-light-2;
+    &__heading {
+        font-size: 2.25rem;
+        font-weight: 300;
+        align-items: center;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding: 1.5rem 3rem;
+    }
+
+    &__stars {
+        margin-right: auto;
+        display: flex;
+
+    }
+
+    &__icon-star,
+    &__icon-location {
+        width: 1.75rem;
+        height: 1.75rem;
+        fill: $color-primary;
+    }
+
+    &__icon-star {
+        fill: $color-secondary;
+    }
+
+    &__icon-location {
+        margin-right: .5rem;
+    }
+
+    &__location {
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+    }
+
+    &__rating {
+        background-color: $color-primary;
+        margin-left: 3rem;
+        color: $color-white;
+        padding: 0 2.25rem;
+        align-self: stretch;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        &-average {
+            font-size: 2.25rem;
+            font-weight: 300;
+            margin-bottom: -3px;
+        }
+
+        &-count {
+            font-size: 1rem;
+            text-transform: uppercase;
+        }
+    }
+}
