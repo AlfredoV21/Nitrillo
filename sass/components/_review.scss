@@ -1,0 +1,59 @@
+.review {
+    background-color: $color-white;
+    box-shadow: 0 2rem 5rem rgba($color-black, .06);
+    padding: 3rem;
+    margin-bottom: 3.5rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px;
+
+    &__text {
+        margin-bottom: 2rem;
+        z-index: 2;
+        position: relative;
+    }
+
+    &__user {
+        display: flex;
+        align-items: center;
+    }
+
+    &__photo {
+        height: 6rem;
+        width: 6rem;
+        border-radius: 50%;
+        margin-right: 2rem;
+    }
+
+    &__user-box {
+        margin-right: auto;
+    }
+
+    &__user-name {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    &__user-date {
+        font-size: 1.1rem;
+        color: $color-grey-dark-2;
+    }
+
+    &__rating {
+        font-weight: 300;
+        font-size: 3rem;
+        color: $color-primary;
+    }
+
+    &::before {
+        content: "\201C";
+        position: absolute;
+        top: -2.75rem;
+        left: -1rem;
+        line-height: 1;
+        font-size: 20rem;
+        color: $color-grey-light-3;
+        font-family: sans-serif;
+        z-index: 1;
+    }
+}
